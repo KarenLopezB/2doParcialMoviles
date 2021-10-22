@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ListaPeliculasController : UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ListaIngredientesController : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 143

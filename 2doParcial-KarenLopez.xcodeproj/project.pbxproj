@@ -19,7 +19,6 @@
 		3D236CAC27235BC400A0D3AD /* CeldaIngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D236CAB27235BC400A0D3AD /* CeldaIngredientesController.swift */; };
 		3D236CAE2723629600A0D3AD /* ListaIngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D236CAD2723629600A0D3AD /* ListaIngredientesController.swift */; };
 		3D9E19372718FA96005D0EA1 /* CeldaRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E19362718FA96005D0EA1 /* CeldaRestaurantController.swift */; };
-		3D9E19392718FF08005D0EA1 /* DetallesRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E19382718FF08005D0EA1 /* DetallesRestaurantController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		3D236CAB27235BC400A0D3AD /* CeldaIngredientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaIngredientesController.swift; sourceTree = "<group>"; };
 		3D236CAD2723629600A0D3AD /* ListaIngredientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaIngredientesController.swift; sourceTree = "<group>"; };
 		3D9E19362718FA96005D0EA1 /* CeldaRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurantController.swift; sourceTree = "<group>"; };
-		3D9E19382718FF08005D0EA1 /* DetallesRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesRestaurantController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +115,6 @@
 				3D02606E2714FEAE00380748 /* Info.plist */,
 				3D090E322717A1920055A2AA /* Restaurant.swift */,
 				3D9E19362718FA96005D0EA1 /* CeldaRestaurantController.swift */,
-				3D9E19382718FF08005D0EA1 /* DetallesRestaurantController.swift */,
 				3D14DD132720E481009E8290 /* Ingredientes.swift */,
 				3D236CAB27235BC400A0D3AD /* CeldaIngredientesController.swift */,
 				3D236CAD2723629600A0D3AD /* ListaIngredientesController.swift */,
@@ -281,7 +278,6 @@
 				3D236CAC27235BC400A0D3AD /* CeldaIngredientesController.swift in Sources */,
 				3D0260632714FE9F00380748 /* AppDelegate.swift in Sources */,
 				3D090E332717A1920055A2AA /* Restaurant.swift in Sources */,
-				3D9E19392718FF08005D0EA1 /* DetallesRestaurantController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
