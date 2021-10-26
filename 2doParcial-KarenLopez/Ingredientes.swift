@@ -9,12 +9,16 @@
 import Foundation
 
 class Ingrediente {
+    var descripcion = ""
+    var precio = ""
     var ingrediente = ""
     var foto = ""
-    
+    /Users/ulsa/Downloads/2doParcialMoviles-main/2doParcial-KarenLopez/Ingredientes.swift
     var ingredientes : [Ingrediente] = []
     
-    init(ingrediente: String, foto: String) {
+    init(descripcion: String, precio: String, ingrediente: String, foto: String) {
+        self.descripcion = descripcion
+        self.precio = precio
         self.ingrediente = ingrediente
         self.foto = foto
     }

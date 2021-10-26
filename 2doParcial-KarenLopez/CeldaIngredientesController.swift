@@ -11,6 +11,8 @@ import UIKit
 
 class CeldaIngredientesController : UITableViewCell {
     
+    @IBOutlet weak var lblPrecio: UILabel!
+    @IBOutlet weak var lblDescripcion: UILabel!
     @IBOutlet weak var imgIngrediente: UIImageView!
     @IBOutlet weak var lblIngrediente: UILabel!
 }

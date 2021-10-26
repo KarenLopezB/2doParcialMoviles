@@ -68,8 +68,8 @@ class ListaRestaurantesController: UIViewController, UITableViewDelegate, UITabl
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destino = segue.destination as! DetallesRestaurantController
-        destino.restaurant = restaurantes[tvRestaurantes.indexPathForSelectedRow!.row]
+        let destino = segue.destination as! ListaIngredientesController
+        destino.ingredientes = restaurantes[tvRestaurantes.indexPathForSelectedRow!.row].ingredientes
     }
 
 }
